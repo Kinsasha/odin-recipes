@@ -1,0 +1,40 @@
+/*style for the index file*/
+* {
+    background-color: black;
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: green;
+    background-color: white;
+    display: block;
+
+}
+
+h1 {
+    color: white;
+}
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+    font-size: xx-large;
+    color: black;
+}
+.pizza, .hamburger, .chicken {
+    background-color: green;
+    color: white;
+
+    border-color: white;
+    margin: 20px;
+}
+img {
+    height: auto;
+    width: 600px;
+    display: block;
+    margin: 30px auto;
+}
+
