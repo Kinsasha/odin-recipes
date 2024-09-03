@@ -2,6 +2,7 @@
     background-color: black;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: ;
 }
 h1,h3,h4 {
     text-align: center;
@@ -16,8 +17,9 @@ img {
 a {
     text-decoration: none;
     background-color: blue;
-    margin: 10px auto;
     color: red;
+    width: fit-content;
+    padding: 10px;
 }
 a:hover {
     color: blue;
@@ -27,4 +29,9 @@ h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: red;
     font: italic;
+}
+.top {
+    display: inline-block;
+    margin: 0;
+    margin-left: 90%;
 }

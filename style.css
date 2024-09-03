@@ -2,6 +2,7 @@
 * {
     background-color: black;
     text-align: center;
+    outline: ;
 }
 a {
     color: white;
@@ -11,6 +12,7 @@ a {
 a:hover {
     color: green;
     background-color: white;
+    border: green 2px solid;
     display: block;
 
 }
@@ -25,16 +27,20 @@ ul {
     color: black;
 }
 .pizza, .hamburger, .chicken {
+    width: 300px;
     background-color: green;
     color: white;
-
-    border-color: white;
-    margin: 20px;
+    border: white 1px solid;
+    margin: auto;
+    display: block;
 }
 img {
-    height: auto;
-    width: 600px;
     display: block;
-    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+    margin-bottom: 20px;
 }
-
+h5 {
+    color: white;
+}
